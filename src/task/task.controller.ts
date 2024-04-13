@@ -24,7 +24,7 @@ export class TaskController {
   }
 
   @Post()
-  @UseGuards(AuthGuard())
+  // @UseGuards(AuthGuard())
   async createtask(
     @Body()
     task,
